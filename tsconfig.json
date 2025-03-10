@@ -1,6 +1,6 @@
 {
     "compilerOptions": {
-        "jsx": "react",
+        "jsx": "react-jsx",
         "target": "es2020",
         "module": "commonjs",
         "strict": true,
@@ -12,7 +12,6 @@
         "alwaysStrict": true,
         "strictNullChecks": true,
         "noUnusedLocals": true,
-        "structFunctionTypes": true,
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true,
         "noImplicitReturns": true,
