@@ -11,9 +11,10 @@
         "test:watch": "jest --watch",
         "test:coverage": "jest --coverage",
         "test:clear": "jest --clearCache && jest",
-        "test:vi": "vitest",
-        "test:viui": "vitest --ui",
-        "test:vicoverage": "vitest run --coverage"
+        "vi:test": "vitest",
+        "vi:ui": "vitest --ui",
+        "vi:coverage": "vitest run --coverage",
+        "vi:report": "vitest run --reporter=html"
     },
     "keywords": [],
     "author": "Brian Ujiie",
@@ -24,6 +25,7 @@
         "@types/react": "^19.0.10",
         "@types/react-dom": "^19.0.4",
         "@vitejs/plugin-react": "^4.3.4",
+        "@vitest/coverage-v8": "^3.0.9",
         "@vitest/ui": "^3.0.9",
         "eslint": "^9.22.0",
         "eslint-plugin-react-hooks": "^5.2.0",
