@@ -20,6 +20,6 @@
         "types": ["react", "react-dom", "node", "jest"],
         "rootDirs": ["./src"]
     },
-    "include": ["src/**/*", "test/**/*"],
+    "include": ["src/**/*", "test/**/*", "./jest-setup.ts"],
     "exclude": ["node_modules", "dist", "build", "coverage", "test/fixtures"]
 }
