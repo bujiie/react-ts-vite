@@ -1,5 +1,7 @@
 import { ReactElement } from 'react';
 
-const App = (): ReactElement => <div>My App</div>;
+import './App.scss';
+
+const App = (): ReactElement => <div className='app'>My App</div>;
 
 export default App;
