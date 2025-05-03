@@ -17,7 +17,7 @@
         "noImplicitReturns": true,
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
-        "types": ["react", "react-dom", "node", "jest", "vitest/globals"],
+        "types": ["react", "react-dom", "node", "jest", "vitest/globals", "vite-plugin-svgr/client"],
         "rootDirs": ["./src"]
     },
     "include": ["src/**/*", "test/**/*", "./jest-setup.ts"],
